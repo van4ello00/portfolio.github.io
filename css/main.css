@@ -1,0 +1,640 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*прелоадер*/
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: #fff;
+z-index: 30;
+}
+ 
+.contpre small{font-size:25px;}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+color:#fff;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;
+}
+ 
+
+/*end preloader*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+
+.container_carousel .about{
+  margin-top: 25px;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.col-md-6{
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255,.88);
+  max-height: 1000%;
+  z-index: 1;
+}
+
+/*тени*/
+ 
+#boxShadow2 {
+  width: 100%;
+  max-width: 100%;
+  margin: 0px auto;
+  box-shadow:
+   -webkit-box-shadow: inset 0px 0px 300px -2px rgba(0,221,255,1);
+-moz-box-shadow: inset 0px 0px 300px -2px rgba(0,221,255,1);
+box-shadow: inset 0px 0px 900px 69px rgb(0, 0, 0);
+}
+
+#boxShadow3 {
+  -webkit-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+box-shadow: 0px 0px 620px 300px rgba(0,0,0,1);
+}
+
+#boxShadow_skills{
+  -webkit-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+box-shadow: 0px 0px 70px 33px rgba(0,0,0,1);
+}
+#boxShadow_contact{
+  -webkit-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+box-shadow: 0px 0px 70px 33px rgba(0,0,0,1);
+}
+.head {
+  min-height: 100%;
+  background-color: transparent;
+  color: #000;
+ 
+}
+
+.head .logo {
+  display: inline-block;
+  width: 320px;
+}
+.head .logo a{
+  font-family: 'Indie Flower', cursive;
+  font-size: 66px;
+  text-decoration: none;
+  color: #fff7ff;
+  margin-left: 20px;
+}
+
+ 
+.head .logo img {
+  width: 9%;
+  z-index: 5;
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.head .menu {
+  margin-top: 15px;
+  margin-right: 20px;
+  float: right;
+  clear: both;
+}
+
+.head .menu ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.head .menu ul li a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-left: 5px;
+  text-decoration: none;
+  padding: 7px 15px 5px;
+  border-radius: 5px;
+  color: #fff7ff;
+}
+
+.head .menu ul li a {
+        text-align: center;
+        text-decoration: none;
+        padding: 0px 5px;
+        border-radius: 4px;
+        font-size: 25px;
+        text-transform: uppercase;
+
+}
+
+.head .menu ul li a:hover{
+        text-align: center;
+        /*padding: 3px 3px;*/
+        background-color: #f04650;
+        color: #fff;
+        border-radius: 7px;
+        transition: all .8s;
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#about{
+  padding-top: 18px;
+  margin-top: 50px;
+}
+#about h2{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #000;
+}
+
+#about .descr{
+  margin-bottom: 10px;
+  text-align: center;
+  color: #000;
+  font-size: 17px;
+}
+
+
+#deskr{
+  text-align: center;
+}
+.descrpt{
+  margin-left: 40px;
+  padding-left: 20px;
+}
+.descrpt .iv{ 
+  text-align: center;
+  color: black;
+}
+
+.descrpt h4{
+  color: #000;
+  text-align: center;
+  
+}
+#foto{
+  max-width: 105%;
+  margin-bottom: 10px;
+}
+
+.descrpt li{
+  list-style-type: none;
+  color: #000;
+  font-family: "LatoRegular";
+}
+
+.descrpt ul{
+  margin-left: -10px;
+}
+
+ /*DOWNLOAD*/
+.resume{
+    text-align: center;
+    margin-top: 27px;
+}
+
+.resume a{
+        font-family:'Indie Flower', cursive ;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        padding: 1px 10px;
+        color: #000000;
+        border-radius: 4px;
+}
+
+.resume a:hover{
+        text-align: center;
+        padding: 10px 10px;
+        background-color: #f04650;
+        color: #fff;
+        border-radius: 4px;
+        transition: all .8s;
+}
+
+#portfolio .col-md-6{
+ text-align: center;
+ padding-top: 20px;
+
+}
+
+/***** HOMEPAGE *****/
+
+
+
+.img-tbtext{
+text-align: center;
+margin: 0 auto;
+/*width: 450px;
+height: 300px;*/
+
+}
+
+.img-tbtext img {
+
+ /* position:absolute;*/ /* абсолютное позиционирование*/
+  text-align: center;
+  /*left: 0;*/ /* выравниваем картинки по левому верхнему углу div-а*/
+
+  /*top: 0;*/ /* выравниваем картинки по левому верхнему углу div-а */  
+
+}
+
+/*.img-tbtext:hover img.first {  при наведении курсора первая картинка становится не прозрачной 
+  opacity:1;
+  filter: Alpha(opacity=100);
+}
+*/
+.img-tbtext img.first:hover {
+    transition: all 1s ease;
+    box-shadow: 0 0 30px 5px #00bcd4;
+}
+
+/***** MY SKILLS *****/
+
+
+/* Carousel */
+
+/*
+inspired from http://codepen.io/Rowno/pen/Afykb 
+*/
+#skills{
+  margin-bottom: 15px;
+  padding-top: 38px;
+}
+.carousel-fade .carousel-inner .item {
+  opacity:0 ;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 0;
+}
+
+a.left.carousel-control,
+a.right.carousel-control {
+  margin-top: 15px;
+}
+
+
+.carousel-caption{
+  /*background: none;*/
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel-control{
+  background-image: none;
+}
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+/* just for demo purpose */
+    html
+    body
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: 400px;
+      width: 100%;
+    }
+
+    .item:nth-child(1) {
+      background: url('../img/ht.png') center no-repeat;
+    }
+
+    .item:nth-child(2) {
+      background: url('../img/cs.png') center no-repeat;
+
+    }
+
+    .item:nth-child(3) {
+      background: url('../img/ps.png') center no-repeat;
+    }
+
+    .item:nth-child(4) {
+      background: url('../img/sa.png') center no-repeat;
+    }
+
+    .item:nth-child(5) {
+      background: url('../img/boot.png') center no-repeat;
+    }
+
+    .item:nth-child(6) {
+      background: url('../img/wp.png') center no-repeat;
+    }
+
+    .item:nth-child(7) {
+      background: url('../img/gulp.png') center no-repeat;
+    }
+
+    .item:nth-child(8) {
+      background: url('../img/js.png') center no-repeat;
+    }
+
+
+/***** CONTACT *****/
+.page-title{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: -5px;
+  color: #dcdbdb;
+} 
+
+#contact{
+  padding-bottom: 15px;
+      margin-top: 21px;
+}
+form {
+  width: 100% !important;
+  display: block;
+  padding: 0px 50px; 
+}
+
+  form > section {
+    display: block;
+  }
+
+    form > section input, form > section textarea {
+      padding: 3px 0 2px 0;
+      outline: none;
+      background-color: transparent;
+      color: #f5f3f3;
+      font-family: "LatoRegular";
+      border: none;
+      border-bottom: 2px solid #000;
+      margin-bottom: 2px; }
+
+      input::placeholder {
+  color: #ffffff;
+}
+
+textarea::placeholder{
+  color: #ffffff;
+}
+/*
+input:1px : : webkit input placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input:1px : : moz placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:1px : moz placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:1px : ms input placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:1px :focus : : webkit input placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:1px :focus : : moz placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:1px :focus : moz placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:1px :focus : ms input placeholder {opacity: 0; transition: opacity 0.3s ease;};  */
+
+    form > section textarea {
+      height: 100px;
+      }
+    #submitted{
+      border-bottom: none;
+    }
+    form > section > * {
+      width: 100%; 
+    }
+
+    form > section input[type='submit'] {
+      font-family: 'Indie Flower', cursive;
+      outline: none;
+      width: 150px;
+      display: inline-block;
+      border-radius: 5px;
+      margin: auto;
+      width: 100px;
+      height: 38px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 25px !important;
+     /* letter-spacing: 2px;*/
+      padding: 0px !important;
+      padding-left: 13px;
+      color: ##dcdbdb;
+      text-transform: uppercase;
+      background-color: none !important; 
+    }
+
+    form > section input[type='submit']:hover {
+      background: #f04650;
+      color: #f4f5f9;
+      cursor: pointer;
+      transition: all 1s; 
+    }
+
+  
+
+
+/* Стили для больших экранов (дисплей максимум 1199 пикселей) */
+@media (max-width: 1199px) { 
+
+}
+ 
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) {
+  .head{
+    margin-left: 4px;
+  }
+  #desk{
+    display: inline-block;
+    width: 600px;
+    top: -40px;
+  }
+  #foto{
+    display: inline-block;
+    vertical-align: 0;
+    width: 90%;
+  }
+  .descrpt{
+    margin-left: 47px;
+    width: 276%;
+  }
+  .resume{
+    float: right;
+    margin-right: 31px;
+    margin-top: -73px;
+  }
+  .foto{
+    margin-left: 92px;
+    /*margin-top: -40px;*/
+  }
+  .img-tbtext img{
+    width: 85%;
+  }
+  #contact{
+    margin-top: 31px;
+  }
+}
+ 
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) {
+  
+  .head .menu{
+    margin-top: -92px;
+  }
+
+  .nav{
+    width: 44%;
+  }
+  .col-md-12{
+   /* width: 242%;*/
+  }
+  .resume{
+    float: none;
+    margin-right: -138px;
+    margin-top: -89px;
+  }
+  .resume a{
+    font-size: 24px;
+    padding: 1px 0;
+  }
+  .descrpt{
+    margin-left: 7px;
+    width: auto;
+    padding-bottom: 22px;
+  }
+  html, body {
+  margin: 0;
+  padding: 0;
+ /* width: 66%;*/
+  height: 100%;
+  }
+  /*#skills{
+    width: 100%;
+  }*/
+  #contact{
+    margin-top: 0px;
+  }
+  #about{
+    margin-bottom: 65px;
+  }
+}
+ 
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) {
+
+.container .row .col-md-12{
+   padding-left: 4px;
+  }
+#boxShadow3 {
+  -webkit-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 300px 129px rgba(0,0,0,1);
+box-shadow: 0px 0px 620px 357px rgba(0,0,0,1);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 96%;
+  height: 100%;
+  margin-left: 10px;
+  }
+
+.head .logo a{
+  font-size: 57px;
+  margin-left: -23px;
+}
+.head{
+  margin-left: 46px;
+}
+.head .menu{
+  margin-top: -61px;
+  
+}
+.nav{
+  margin-right: -71px;
+      width: 86%;
+}
+.head .menu ul li a{
+  font-size: 19px;
+}
+.head .menu ul li a:hover{
+  padding: 0px 7px;
+}
+.header{
+  width: 126%;
+}
+#portfolio{
+  margin-left: 9px;
+  margin-right: -58px;
+  margin-bottom: 19px;
+}
+#skills{
+  margin-left: 29px;
+}
+#skills .row .col-md-12{
+  width: auto;
+}
+#about .row .col-md-12{
+
+}
+.wrap{
+  width: 95%;
+}
+}
+ 
+
